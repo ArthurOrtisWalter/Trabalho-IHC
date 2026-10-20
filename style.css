@@ -1,0 +1,116 @@
+body {
+    background-color: #f2ead3;
+    font-family: sans-serif;
+    color: #3F2305;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px #3F2305;
+}
+
+.botoes {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: #3F2305;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoTexto {
+    font-family: "Permanent Marker", cursive;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #3F2305;
+}
+
+.logoIcon {
+    font-size: 2rem;
+    color: #3F2305;
+}
+
+.subtitulo {
+    text-align: center;
+    padding: 0px;
+}
+
+.subtituloTexto {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #3F2305;
+}
+
+.descricao {
+    font-family: sans-serif;
+    font-size: 0.95rem;
+    color: #3F2305;
+    font-style: italic;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tag {
+    font-size: 0.8rem;
+    padding: 4px 12px;
+    border-radius: 15px;
+    border: 1px solid #3F2305;
+    background-color: #f5f5f5;
+    color: #3F2305;
+    font-weight: 600;
+}
+
+.principal {
+    margin: 0;
+    padding: 20px 20px 40px;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.fundoCavalo {
+    position: relative;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px #3F2305;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+}
+
+.fundoCavalo img {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+}
+
+.textoCavalo {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #3F2305;
+    letter-spacing: 0.5px;
+    background-color: #f5f5f5;
+    padding: 3px 8px;
+    border-radius: 2px;
+}
